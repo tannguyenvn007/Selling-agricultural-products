@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.mr-5{
+  margin-right: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.block-action{
+  background-color: #f2f2f2;
+  padding-bottom: 80px;
+  padding-top: 12px;
+}
+.block-action .content {
+  margin: 0 90px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 60px 40px;
+  box-shadow: 4px 4px 10px rgba(78,71,71,.53);
+}
+.bg-green{
+  background-color: #4ca811;
+}
+.card .rating {
+  color: #ffa000;
+}
+.rating {
+  list-style-type: none;
+}
+.price{
+  color: #ff0000;
+  font-weight: 700;
+  font-size: 14px;
+}
+.btn-rounded {
+  border-radius: 10em;
+}
+.deep-purple-skin .btn-primary {
+  background-color: #ac85f0;
+}
+.btn.btn-sm, .btn.wishlist {
+  font-size: .6rem;
+  padding: .5rem 1.6rem;
+}
+ .product-table td{
+  vertical-align: middle !important;
+ }
+ .btn-bg-color{
+  background-color: #65d31f;
+  border-color: #65d31f;
+ }
+ .btn-bg-color:hover{
+  
+  background-color: #4ca811;
+  border-color: #4ca811;
+ }
+ .btn-bg-color-red{
+  background-color: #ff0000;
+  border-color: #ff0000;
+ }
+ .btn-bg-color-red:hover{
+  background-color: #960909;
+  border-color: #960909;
+ }
+ .product-title{
+  font-size: 35px;
+  color: #4ca811;
+ }
+
+ /* loader */
+
+.loader:empty {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 1.1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1.1em solid #000000;
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

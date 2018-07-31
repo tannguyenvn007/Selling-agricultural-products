@@ -1,2 +1,5 @@
 # Selling-agricultural-products
-reactjs
+##Run app
+#### Run `cd Selling-agricultural-product`
+#### Run `npm install`
+#### Run `npm start`
